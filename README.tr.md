@@ -1,3 +1,7 @@
+<p align="right">
+  <b>🇹🇷 Türkçe</b> · <a href="README.md"><b>🇬🇧 English</b></a>
+</p>
+
 # A2UI Flow Studio — Mimari, A2UI v1.0 Protokolü ve Kod Rehberi
 
 Bu doküman; **A2UI Flow Studio** projesinde ne yaptığımızı, Google'ın **A2UI (Agent-to-UI) v1.0** protokolünün kaputun altında nasıl çalıştığını, kod tabanındaki kritik noktaları (tıklanabilir dosya/satır referanslarıyla) ve canlı sunumda (demo) nasıl kullanılacağını adım adım açıklar.

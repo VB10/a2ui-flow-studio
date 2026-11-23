@@ -1,3 +1,7 @@
+<p align="right">
+  <a href="README.tr.md"><b>🇹🇷 Türkçe</b></a> · <b>🇬🇧 English</b>
+</p>
+
 # A2UI Flow Studio
 
 Change a Flutter form without an app store release. Edit an onboarding flow in a web Studio, press **Publish**, and the form on the phone updates live. Whatever the user already typed stays.
@@ -7,8 +11,6 @@ The UI protocol is Google's **A2UI (Agent-to-UI) v1.0**, rendered by [`a2ui_flut
 ![Live update](assets/live-update.gif)
 
 *Left: Studio. Right: Player. Publish adds an age slider; name and email are kept.*
-
-> 🇹🇷 Türkçe mimari rehberi: [README.tr.md](README.tr.md)
 
 ## How it works
 
