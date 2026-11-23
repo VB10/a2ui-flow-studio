@@ -1,0 +1,36 @@
+name: a2ui_flow_studio
+publish_to: none
+description: A2UI Flow Studio workspace (Studio, Player, Server, Compiler, Core).
+
+environment:
+  sdk: ^3.10.0
+
+workspace:
+  - packages/flow_core
+  - packages/flow_compiler
+  - apps/server
+  - apps/studio
+  - apps/player
+
+dev_dependencies:
+  lints: ^5.1.1
+  melos: ^7.0.0
+
+melos:
+  scripts:
+    analyze:
+      exec: dart analyze .
+      description: Run dart analyze across all packages.
+    test:
+      run: melos exec --dir-exists="test" -- "flutter test"
+      description: Run tests in all packages with a test directory.
+    serve:
+      run: dart run apps/server/bin/server.dart
+      description: Start the A2UI Flow Studio shelf server on port 8080.
+    studio:
+      run: flutter run -d chrome -t apps/studio/lib/main.dart --web-port=3000
+      description: Run the Studio web editor in Chrome.
+    player:
+      run: flutter run -t apps/player/lib/main.dart
+      description: Run the Player mobile app on simulator/device.
+

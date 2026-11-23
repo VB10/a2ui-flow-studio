@@ -1,0 +1,19 @@
+name: flow_compiler
+description: Pure Dart compiler that turns FlowDefinition into A2UI protocol messages.
+version: 0.1.0
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flow_core:
+    path: ../flow_core
+
+dev_dependencies:
+  a2ui_core: 0.7.0
+  json_schema_builder: ^0.1.7
+  test: ^1.25.0
+  lints: ^5.1.1
+

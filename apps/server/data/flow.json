@@ -1,0 +1,168 @@
+{
+  "draft": {
+    "id": "onboarding_flow",
+    "title": "A2UI Onboarding Akışı",
+    "steps": [
+      {
+        "id": "step_profile",
+        "title": "Profil Bilgileri 333",
+        "description": "Hoş geldiniz! Başlamak için temel bilgilerinizi girin.",
+        "fields": [
+          {
+            "key": "full_name",
+            "type": "text",
+            "label": "Ad Soyad 2",
+            "placeholder": "Örn. Ada Lovelace",
+            "required": true,
+            "minLength": 2
+          },
+          {
+            "key": "email",
+            "type": "email",
+            "label": "E-posta Adresi",
+            "placeholder": "ada@ornek.com",
+            "required": true
+          },
+          {
+            "key": "age",
+            "type": "slider",
+            "label": "Yaşınızı girin",
+            "required": true,
+            "min": 18,
+            "max": 80
+          }
+        ],
+        "submitLabel": "Devam Et",
+        "next": {
+          "defaultStepId": "step_role",
+          "rules": []
+        }
+      },
+      {
+        "id": "step_role",
+        "title": "Rolünüzü Seçin",
+        "description": "Deneyiminizi size göre özelleştirelim.",
+        "fields": [
+          {
+            "key": "role",
+            "type": "singleChoice",
+            "label": "Ekibinizdeki rolünüz nedir?",
+            "required": true,
+            "options": [
+              {
+                "value": "developer",
+                "label": "Yazılım Geliştirici"
+              },
+              {
+                "value": "designer",
+                "label": "Ürün Tasarımcısı"
+              },
+              {
+                "value": "pm",
+                "label": "Ürün Yöneticisi"
+              },
+              {
+                "value": "student",
+                "label": "Öğrenci / Araştırmacı"
+              }
+            ]
+          }
+        ],
+        "submitLabel": "Tamamla",
+        "next": {
+          "defaultStepId": "step_101",
+          "rules": []
+        }
+      },
+      {
+        "id": "step_101",
+        "title": "Yeni Adım 3",
+        "description": "Bu adım için açıklama girin.",
+        "fields": [
+          {
+            "key": "field_102",
+            "type": "text",
+            "label": "Yeni Alan",
+            "required": true
+          }
+        ],
+        "submitLabel": "Devam Et",
+        "next": {
+          "defaultStepId": null,
+          "rules": []
+        }
+      }
+    ]
+  },
+  "published": {
+    "id": "onboarding_flow",
+    "title": "A2UI Onboarding Akışı",
+    "steps": [
+      {
+        "id": "step_profile",
+        "title": "Profil Bilgileri 333",
+        "description": "Hoş geldiniz! Başlamak için temel bilgilerinizi girin.",
+        "fields": [
+          {
+            "key": "full_name",
+            "type": "text",
+            "label": "Ad Soyad 2",
+            "placeholder": "Örn. Ada Lovelace",
+            "required": true,
+            "minLength": 2
+          },
+          {
+            "key": "email",
+            "type": "email",
+            "label": "E-posta Adresi",
+            "placeholder": "ada@ornek.com",
+            "required": true
+          }
+        ],
+        "submitLabel": "Devam Et",
+        "next": {
+          "defaultStepId": "step_role",
+          "rules": []
+        }
+      },
+      {
+        "id": "step_role",
+        "title": "Rolünüzü Seçin",
+        "description": "Deneyiminizi size göre özelleştirelim.",
+        "fields": [
+          {
+            "key": "role",
+            "type": "singleChoice",
+            "label": "Ekibinizdeki rolünüz nedir?",
+            "required": true,
+            "options": [
+              {
+                "value": "developer",
+                "label": "Yazılım Geliştirici"
+              },
+              {
+                "value": "designer",
+                "label": "Ürün Tasarımcısı"
+              },
+              {
+                "value": "pm",
+                "label": "Ürün Yöneticisi"
+              },
+              {
+                "value": "student",
+                "label": "Öğrenci / Araştırmacı"
+              }
+            ]
+          }
+        ],
+        "submitLabel": "Tamamla",
+        "next": {
+          "defaultStepId": null,
+          "rules": []
+        }
+      }
+    ]
+  },
+  "publishedVersion": 4,
+  "hasUnpublishedChanges": true
+}

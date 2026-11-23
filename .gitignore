@@ -1,0 +1,26 @@
+# Build / tooling output
+build/
+.dart_tool/
+.pub-cache/
+.packages
+pubspec_overrides.yaml
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Flutter generated / machine-local
+.flutter-plugins
+.flutter-plugins-dependencies
+local.properties
+**/ephemeral/
+*.env
+
+# Runtime data written by the server (may contain user input / uploads)
+apps/server/data/submissions.json
+apps/server/data/uploads/
+
+# Personal notes, tutorials and article drafts (kept local)
+docs/

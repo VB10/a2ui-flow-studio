@@ -1,0 +1,26 @@
+name: studio
+description: Flutter web editor for A2UI Flow Studio.
+version: 0.1.0
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flow_core:
+    path: ../../packages/flow_core
+  flutter_riverpod: ^2.6.1
+  http: ^1.3.0
+  go_router: ^14.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
